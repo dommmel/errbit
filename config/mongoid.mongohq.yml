@@ -1,4 +1,4 @@
-# Mongoid Configuration for MongoHQ on Heroku
+# Mongoid Configuration for MongoLab on Heroku
 # ===========================================
 #
 # Copy this file to config/mongoid.yml,
@@ -6,3 +6,4 @@
 
 production:
   uri: <%= ENV['MONGOHQ_URL'] %>
+
