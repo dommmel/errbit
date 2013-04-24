@@ -6,4 +6,5 @@
 
 production:
   uri: <%= ENV['MONGOHQ_URL'] %>
+  identity_map_enabled: true
 
