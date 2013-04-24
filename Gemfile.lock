@@ -276,6 +276,8 @@ GEM
     ruby-fogbugz (0.1.1)
       crack
     rubyzip (0.9.9)
+    rufus-scheduler (2.0.18)
+      tzinfo (>= 0.3.23)
     rushover (0.3.0)
       json
       rest-client
@@ -374,6 +376,7 @@ DEPENDENCIES
   rspec-rails (~> 2.6)
   ruby-debug
   ruby-fogbugz
+  rufus-scheduler
   rushover
   therubyracer
   thin

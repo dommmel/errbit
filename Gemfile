@@ -8,7 +8,7 @@ gem 'devise', '~> 1.5.4'
 gem 'haml'
 gem 'htmlentities', "~> 4.3.0"
 gem 'rack-ssl', :require => 'rack/ssl'   # force SSL
-
+gem "rufus-scheduler"
 gem 'useragent', '~> 0.3.1'
 gem 'inherited_resources'
 gem 'SystemTimer', :platform => :ruby_18
