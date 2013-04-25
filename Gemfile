@@ -90,7 +90,6 @@ group :development, :test do
     gem 'pry-rails'
   end
 #  gem 'rpm_contrib'
-  gem 'newrelic_rpm'
   gem 'capistrano'
 
   # better errors
@@ -111,6 +110,7 @@ end
 
 group :heroku, :production do
   gem 'unicorn'
+  gem 'newrelic_rpm'
 end
 
 # Use thin for development
