@@ -1,5 +1,5 @@
 require 'ostruct'
-default_config_file = Rails.root.join("config", "config.example.yml")
+default_config_file = Rails.root.join("config", "config.yml")
 
 # Allow a Rails Engine to override config by defining it earlier
 unless defined?(Errbit::Config)

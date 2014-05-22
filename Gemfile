@@ -10,6 +10,7 @@ gem 'mongoid'
 
 gem 'mongoid_rails_migrations'
 gem 'devise'
+
 gem 'haml'
 gem 'htmlentities'
 gem 'rack-ssl', :require => 'rack/ssl'   # force SSL
@@ -18,6 +19,7 @@ gem 'useragent'
 gem 'decent_exposure'
 gem 'strong_parameters'
 gem 'actionmailer_inline_css'
+
 gem 'kaminari', '>= 0.14.1'
 gem 'rack-ssl-enforcer', :require => false
 gem 'fabrication'
@@ -25,6 +27,8 @@ gem 'rails_autolink'
 # Please don't update hoptoad_notifier to airbrake.
 # It's for internal use only, and we monkeypatch certain methods
 gem 'hoptoad_notifier', "~> 2.4"
+
+gem "rufus-scheduler"
 
 
 # Remove / comment out any of the gems below if you want to disable
@@ -88,6 +92,7 @@ end
 group :development do
   gem 'capistrano', '~> 2.0', :require => false
 
+
   # better errors
   gem 'better_errors'
   gem 'binding_of_caller'
@@ -111,6 +116,7 @@ end
 
 group :heroku, :production do
   gem 'unicorn', :require => false
+  gem 'newrelic_rpm'
 end
 
 

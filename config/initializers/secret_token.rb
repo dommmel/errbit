@@ -33,3 +33,4 @@ elsif !Errbit::Application.config.secret_token
 end
 
 Devise.secret_key = Errbit::Application.config.secret_token
+
