@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-
+ruby "2.1.2"
 RAILS_VERSION = '~> 3.2.18'
 
 gem 'actionmailer', RAILS_VERSION
