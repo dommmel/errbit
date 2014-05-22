@@ -19,3 +19,5 @@ bundle
 coverage
 *#
 .ruby-version
+.env
+.vagrant
